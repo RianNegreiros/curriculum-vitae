@@ -1,7 +1,3 @@
-import {
-  JarockiMeLogo,
-  Minimal,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
