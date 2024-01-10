@@ -101,35 +101,5 @@ export const RESUME_DATA = {
         href: ""
       },
     },
-    {
-      title: "URL Shortener",
-      techStack: ["Golang", "Redis", "Fiber"],
-      description:
-        "Serviço que permite encurtar URLs longos para torná-los mais compactos e fáceis de compartilhar",
-      link: {
-        label: "https://github.com/RianNegreiros/url-shortener-go-redis",
-        href: ""
-      },
-    },
-    {
-      title: "Kafka Clone",
-      techStack: ["Golang"],
-      description:
-        "Uma implementação simplificada de um sistema de corretor de mensagens, inspirado no Apache Kafka",
-      link: {
-        label: "https://github.com/RianNegreiros/devgym-kafka-clone",
-        href: ""
-      },
-    },
-    {
-      title: "Vigilate",
-      techStack: ["Golang", "Next.js", "PostgreSQL", "Apache Kafka"],
-      description:
-        "Health Checker de serviços Web com monitoramento em tempo real usando Pusher e Apache Kafka",
-      link: {
-        label: "https://github.com/RianNegreiros/vigilate",
-        href: "https://vigilate.vercel.app",
-      },
-    },
   ],
 } as const;
