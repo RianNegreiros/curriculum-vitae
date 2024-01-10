@@ -2,7 +2,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, LinkIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -30,6 +30,16 @@ export default function Page() {
               >
                 <GlobeIcon className="h-3 w-3" />
                 {RESUME_DATA.location}
+              </a>
+            </p>
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+              <a
+                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                href={`https://www.${RESUME_DATA.personalWebsiteUrl}`}
+                target="_blank"
+              >
+                <LinkIcon className="h-3 w-3" />
+                {RESUME_DATA.personalWebsiteUrl}
               </a>
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">

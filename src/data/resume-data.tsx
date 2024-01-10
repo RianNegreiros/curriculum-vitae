@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Desenvolvedor Back-end",
   summary:
     "Iniciei minha jornada na adolescência, configurando servidores para o jogo DayZ usando Batchfile, XML e JSON. Mas só após terminar o ensino médio, por influência do meu irmão mais velho, que já trabalhava na área, estou embarcando na jornada do desenvolvimento.",
-  personalWebsiteUrl: "https://riannegreiros.dev",
+  personalWebsiteUrl: "riannegreiros.dev",
   contact: {
     email: "riannegreiros@gmail.com",
     tel: "(21) 97297-8731",
@@ -83,7 +83,7 @@ export const RESUME_DATA = {
     },
     {
       title: "EnterpriseStock",
-      techStack: ["Spring", "Oauth2", "PostgreSQL"],
+      techStack: ["Spring", "Oauth2", "PostgreSQL", "JUnit5"],
       description:
         "API RESTful desenvolvida usando o Spring e Java para catalogação de produtos feito com foco na autorização e autenticação",
       link: {
@@ -92,34 +92,44 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "URL Shortener",
-      techStack: ["Golang", "Redis", "Fiber"],
+      title: "Learnify API",
+      techStack: ["Spring", "Oauth2", "PostgreSQL"],
       description:
-        "Serviço que permite encurtar URLs longos para torná-los mais compactos e fáceis de compartilhar",
+        "API projetada para gerenciar conteúdo educacional, incluindo tarefas, lições e vários recursos.",
       link: {
-        label: "https://github.com/RianNegreiros/url-shortener-go-redis",
+        label: "https://github.com/RianNegreiros/LearnifyAPI",
         href: ""
       },
     },
-    {
-      title: "Kafka Clone",
-      techStack: ["Golang"],
-      description:
-        "Uma implementação simplificada de um sistema de corretor de mensagens, inspirado no Apache Kafka",
-      link: {
-        label: "https://github.com/RianNegreiros/devgym-kafka-clone",
-        href: ""
-      },
-    },
-    {
-      title: "Vigilate",
-      techStack: ["Golang", "Next.js", "PostgreSQL", "Apache Kafka"],
-      description:
-        "Health Checker de serviços Web com monitoramento em tempo real usando Pusher e Apache Kafka",
-      link: {
-        label: "https://github.com/RianNegreiros/vigilate",
-        href: "https://vigilate.vercel.app",
-      },
-    },
+    // {
+    //   title: "URL Shortener",
+    //   techStack: ["Golang", "Redis", "Fiber"],
+    //   description:
+    //     "Serviço que permite encurtar URLs longos para torná-los mais compactos e fáceis de compartilhar",
+    //   link: {
+    //     label: "https://github.com/RianNegreiros/url-shortener-go-redis",
+    //     href: ""
+    //   },
+    // },
+    // {
+    //   title: "Kafka Clone",
+    //   techStack: ["Golang"],
+    //   description:
+    //     "Uma implementação simplificada de um sistema de corretor de mensagens, inspirado no Apache Kafka",
+    //   link: {
+    //     label: "https://github.com/RianNegreiros/devgym-kafka-clone",
+    //     href: ""
+    //   },
+    // },
+    // {
+    //   title: "Vigilate",
+    //   techStack: ["Golang", "Next.js", "PostgreSQL", "Apache Kafka"],
+    //   description:
+    //     "Health Checker de serviços Web com monitoramento em tempo real usando Pusher e Apache Kafka",
+    //   link: {
+    //     label: "https://github.com/RianNegreiros/vigilate",
+    //     href: "https://vigilate.vercel.app",
+    //   },
+    // },
   ],
 } as const;
