@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       title: "SpotCode",
       techStack: ["Spring", "Oauth2", "H2"],
       description:
-        "Uma API de música desenvolvida usando o Spring e Java, inspirada no Spotify",
+        "Uma API de música inspirada no Spotify",
       link: {
         label: "https://github.com/RianNegreiros/SpotCode",
         href: ""
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       title: "EnterpriseStock",
       techStack: ["Spring", "Oauth2", "PostgreSQL", "JUnit5"],
       description:
-        "API RESTful desenvolvida usando o Spring e Java para catalogação de produtos feito com foco na autorização e autenticação",
+        "API RESTful para catalogação de produtos com foco na autorização e autenticação",
       link: {
         label: "https://github.com/RianNegreiros/EnterpriseStock",
         href: ""
